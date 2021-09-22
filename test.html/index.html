@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <title>Hlegals</title>
+</head>
+<body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="news-tab" data-bs-toggle="tab" data-bs-target="#news" type="button" role="tab" aria-controls="news" aria-selected="true">Новини</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="articles-tab" data-bs-toggle="tab" data-bs-target="#articles" type="button" role="tab" aria-controls="articles" aria-selected="false">Статті</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="false">Про компанію</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="cases-tab" data-bs-toggle="tab" data-bs-target="#cases" type="button" role="tab" aria-controls="cases" aria-selected="false">Кейси</button>
+          </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="news" role="tabpanel" aria-labelledby="news-tab">
+            <h2>Новини</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores et cumque praesentium expedita labore iure veritatis quam obcaecati tempora, repellendus, ipsa eum voluptatibus sequi? Non reiciendis expedita ipsam sunt.</p>
+        </div>
+        <div class="tab-pane fade" id="articles" role="tabpanel" aria-labelledby="articles-tab">
+            <h2>Статті</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odio neque obcaecati impedit similique amet minima autem consequatur aspernatur tempora? Optio suscipit numquam dignissimos cupiditate voluptatum magnam ut? Quos, eaque.</p>
+        </div>
+        <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+            <h2>Про нас</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odio neque obcaecati impedit similique amet minima autem consequatur aspernatur tempora? Optio suscipit numquam dignissimos cupiditate voluptatum magnam ut? Quos, eaque.</p>
+        </div>
+        <div class="tab-pane fade" id="cases" role="tabpanel" aria-labelledby="cases-tab">
+            <h2>Кейси</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odio neque obcaecati impedit similique amet minima autem consequatur aspernatur tempora? Optio suscipit numquam dignissimos cupiditate voluptatum magnam ut? Quos, eaque.</p>
+        </div>
+    </div>
+
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contact-modal">
+    Відкрити заповнення форми
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h2" id="contactModalLabel">Ми б хотіли вам допомогти</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <!---<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> --->
+          <button type="button" class="btn btn-primary">Надіслати запит</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+</body>
+</html>
